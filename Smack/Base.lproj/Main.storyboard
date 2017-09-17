@@ -66,7 +66,7 @@
                                     <action selector="loginBtnPressed:" destination="mTK-Kr-nK4" eventType="touchUpInside" id="Vfa-W1-iXd"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="M7M-ID-GYN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="M7M-ID-GYN" customClass="CircleImage" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="16" y="572" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="DbN-j5-nxz"/>
@@ -429,7 +429,7 @@
                                 <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="aLG-7G-p1b">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="aLG-7G-p1b" customClass="CircleImage" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="138" y="299" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="2Yk-rc-7m6"/>
@@ -447,6 +447,10 @@
                                     <action selector="pickBGColorPressed:" destination="cx0-A8-OFN" eventType="touchUpInside" id="aLR-Gn-r5w"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="zPz-KI-i2X">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -461,7 +465,9 @@
                             <constraint firstItem="MyX-zn-88i" firstAttribute="top" secondItem="aLG-7G-p1b" secondAttribute="top" id="gYW-8J-1wM"/>
                             <constraint firstItem="aLG-7G-p1b" firstAttribute="top" secondItem="anr-DO-jck" secondAttribute="bottom" constant="40" id="hD4-Pc-ql8"/>
                             <constraint firstItem="JoR-Nl-Z2d" firstAttribute="centerX" secondItem="6Mu-oQ-kp7" secondAttribute="centerX" id="ipD-pE-zYE"/>
+                            <constraint firstItem="zPz-KI-i2X" firstAttribute="centerX" secondItem="6Mu-oQ-kp7" secondAttribute="centerX" id="ipE-PO-OTM"/>
                             <constraint firstItem="MyX-zn-88i" firstAttribute="centerX" secondItem="6Mu-oQ-kp7" secondAttribute="centerX" id="jDs-oM-KQj"/>
+                            <constraint firstItem="zPz-KI-i2X" firstAttribute="centerY" secondItem="6Mu-oQ-kp7" secondAttribute="centerY" constant="-100" id="kYF-Rb-UZa"/>
                             <constraint firstItem="PJ2-bP-dWH" firstAttribute="centerX" secondItem="6Mu-oQ-kp7" secondAttribute="centerX" id="qIE-DD-vZw"/>
                             <constraint firstItem="aLG-7G-p1b" firstAttribute="centerX" secondItem="6Mu-oQ-kp7" secondAttribute="centerX" id="qhI-x8-mAW"/>
                             <constraint firstItem="WvS-4L-g3Z" firstAttribute="trailing" secondItem="6Mu-oQ-kp7" secondAttribute="trailingMargin" id="wlt-fB-QHr"/>
@@ -470,6 +476,7 @@
                     <connections>
                         <outlet property="emailText" destination="qRz-rF-qGe" id="qbC-Z2-PH0"/>
                         <outlet property="passText" destination="h4s-9m-slO" id="ylA-aa-X2k"/>
+                        <outlet property="spinner" destination="zPz-KI-i2X" id="zJv-id-YMs"/>
                         <outlet property="userImage" destination="aLG-7G-p1b" id="Vq0-tp-S6a"/>
                         <outlet property="userNameText" destination="GBP-Is-etU" id="Ln8-XN-iIV"/>
                         <segue destination="Sg7-Dw-XZS" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="4dP-aV-HcE"/>
