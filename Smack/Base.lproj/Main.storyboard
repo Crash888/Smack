@@ -125,6 +125,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="kVh-fO-C5B" id="qbS-sy-MHz"/>
+                        <outlet property="userImage" destination="M7M-ID-GYN" id="eNh-98-m6V"/>
                         <segue destination="HAP-sb-sMa" kind="show" identifier="toLogin" id="iia-Ob-JQd"/>
                     </connections>
                 </viewController>
