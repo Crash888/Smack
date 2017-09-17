@@ -12,6 +12,8 @@
 		5935E6131F51F7E9003911CB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5935E6121F51F7E9003911CB /* LoginVC.swift */; };
 		5935E6151F51F957003911CB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5935E6141F51F957003911CB /* CreateAccountVC.swift */; };
 		59690D1A1F6F03300001D975 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59690D191F6F03300001D975 /* UserDataService.swift */; };
+		59690D1C1F6F0ADF0001D975 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59690D1B1F6F0ADF0001D975 /* AvatarPickerVC.swift */; };
+		59690D1E1F6F22A80001D975 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59690D1D1F6F22A80001D975 /* AvatarCell.swift */; };
 		59794EF91F513CFD004A599E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59794EF81F513CFD004A599E /* AppDelegate.swift */; };
 		59794EFE1F513CFD004A599E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59794EFC1F513CFD004A599E /* Main.storyboard */; };
 		59794F001F513CFD004A599E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59794EFF1F513CFD004A599E /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		5935E6121F51F7E9003911CB /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5935E6141F51F957003911CB /* CreateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		59690D191F6F03300001D975 /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		59690D1B1F6F0ADF0001D975 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		59690D1D1F6F22A80001D975 /* AvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		59794EF51F513CFD004A599E /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59794EF81F513CFD004A599E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59794EFD1F513CFD004A599E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 				59794F141F5143E3004A599E /* ChannelVC.swift */,
 				5935E6121F51F7E9003911CB /* LoginVC.swift */,
 				5935E6141F51F957003911CB /* CreateAccountVC.swift */,
+				59690D1B1F6F0ADF0001D975 /* AvatarPickerVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				59794F161F51482A004A599E /* GradientView.swift */,
 				59B4E4DE1F5A9A1500BC7FB3 /* RoundedButton.swift */,
+				59690D1D1F6F22A80001D975 /* AvatarCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59794F151F5143E3004A599E /* ChannelVC.swift in Sources */,
+				59690D1C1F6F0ADF0001D975 /* AvatarPickerVC.swift in Sources */,
 				59B4E4DF1F5A9A1500BC7FB3 /* RoundedButton.swift in Sources */,
 				59794F131F5143D3004A599E /* ChatVC.swift in Sources */,
 				59690D1A1F6F03300001D975 /* UserDataService.swift in Sources */,
@@ -301,6 +308,7 @@
 				59B4E4DD1F5A930600BC7FB3 /* AuthService.swift in Sources */,
 				5935E6131F51F7E9003911CB /* LoginVC.swift in Sources */,
 				59794F171F51482A004A599E /* GradientView.swift in Sources */,
+				59690D1E1F6F22A80001D975 /* AvatarCell.swift in Sources */,
 				59794EF91F513CFD004A599E /* AppDelegate.swift in Sources */,
 				59794F0E1F5141EA004A599E /* SWRevealViewController.m in Sources */,
 				5935E6111F51F017003911CB /* Constants.swift in Sources */,
