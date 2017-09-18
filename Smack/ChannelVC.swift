@@ -23,6 +23,14 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        MessageService.instance.findAllChannels { (success) in
+            self.tableView.reloadData()
+        }
+        
+        SocketService.instance.getChannel { (success) in
+            self.tableView.reloadData()
+        }
     }
 
     override func viewDidAppear(_ animated: Bool) {

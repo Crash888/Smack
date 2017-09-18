@@ -22,6 +22,7 @@
 		597700F01F704225005BB483 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597700EF1F704225005BB483 /* ChannelCell.swift */; };
 		597700F31F704674005BB483 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597700F11F704674005BB483 /* AddChannelVC.swift */; };
 		597700F41F704674005BB483 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 597700F21F704674005BB483 /* AddChannelVC.xib */; };
+		597700F61F704DF8005BB483 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597700F51F704DF8005BB483 /* SocketService.swift */; };
 		59794EF91F513CFD004A599E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59794EF81F513CFD004A599E /* AppDelegate.swift */; };
 		59794EFE1F513CFD004A599E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59794EFC1F513CFD004A599E /* Main.storyboard */; };
 		59794F001F513CFD004A599E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59794EFF1F513CFD004A599E /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		597700EF1F704225005BB483 /* ChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		597700F11F704674005BB483 /* AddChannelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		597700F21F704674005BB483 /* AddChannelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		597700F51F704DF8005BB483 /* SocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		59794EF51F513CFD004A599E /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59794EF81F513CFD004A599E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59794EFD1F513CFD004A599E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				59B4E4DC1F5A930600BC7FB3 /* AuthService.swift */,
 				59690D191F6F03300001D975 /* UserDataService.swift */,
 				597700EB1F70337B005BB483 /* MessageService.swift */,
+				597700F51F704DF8005BB483 /* SocketService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597700F61F704DF8005BB483 /* SocketService.swift in Sources */,
 				59690D231F6F40C10001D975 /* ProfileVC.swift in Sources */,
 				597700F01F704225005BB483 /* ChannelCell.swift in Sources */,
 				59794F151F5143E3004A599E /* ChannelVC.swift in Sources */,
