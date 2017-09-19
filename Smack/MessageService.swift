@@ -54,6 +54,7 @@ class MessageService {
                 
                 if let json = JSON(data: data).array {
                     for item in json {
+                        
                         let messageBody = item["messageBody"].stringValue
                         let channelId = item["channelId"].stringValue
                         let id = item["_id"].stringValue

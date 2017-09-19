@@ -25,6 +25,7 @@
 		597700F61F704DF8005BB483 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597700F51F704DF8005BB483 /* SocketService.swift */; };
 		597700F81F70761A005BB483 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597700F71F70761A005BB483 /* Message.swift */; };
 		5977D94B1F707D29004666C7 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5977D94A1F707D29004666C7 /* KeyboardBoundView.swift */; };
+		5977D94D1F70C117004666C7 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5977D94C1F70C117004666C7 /* MessageCell.swift */; };
 		59794EF91F513CFD004A599E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59794EF81F513CFD004A599E /* AppDelegate.swift */; };
 		59794EFE1F513CFD004A599E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59794EFC1F513CFD004A599E /* Main.storyboard */; };
 		59794F001F513CFD004A599E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59794EFF1F513CFD004A599E /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		597700F51F704DF8005BB483 /* SocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		597700F71F70761A005BB483 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		5977D94A1F707D29004666C7 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		5977D94C1F70C117004666C7 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		59794EF51F513CFD004A599E /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59794EF81F513CFD004A599E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59794EFD1F513CFD004A599E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				59690D1F1F6F30060001D975 /* CircleImage.swift */,
 				597700EF1F704225005BB483 /* ChannelCell.swift */,
 				5977D94A1F707D29004666C7 /* KeyboardBoundView.swift */,
+				5977D94C1F70C117004666C7 /* MessageCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				597700F01F704225005BB483 /* ChannelCell.swift in Sources */,
 				59794F151F5143E3004A599E /* ChannelVC.swift in Sources */,
 				59690D1C1F6F0ADF0001D975 /* AvatarPickerVC.swift in Sources */,
+				5977D94D1F70C117004666C7 /* MessageCell.swift in Sources */,
 				59B4E4DF1F5A9A1500BC7FB3 /* RoundedButton.swift in Sources */,
 				597700F81F70761A005BB483 /* Message.swift in Sources */,
 				597700EE1F703399005BB483 /* Channel.swift in Sources */,
